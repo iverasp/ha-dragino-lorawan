@@ -1,0 +1,29 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Dragino LoRaWAN is already configured.",
+      "no_lorawan_connections": "No LoRaWAN connections are available.",
+      "no_supported_devices": "No supported Dragino devices were found."
+    },
+    "step": {
+      "confirm": {
+        "description": "Set up supported Dragino devices from your LoRaWAN connections."
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery_voltage": {"name": "Battery voltage"},
+      "battery_status": {
+        "name": "Battery status",
+        "state": {
+          "ultra_low": "Ultra-low",
+          "low": "Low",
+          "ok": "OK",
+          "good": "Good"
+        }
+      },
+      "movement_count": {"name": "Movement count"}
+    }
+  }
+}
